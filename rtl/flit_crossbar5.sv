@@ -10,7 +10,6 @@ module flit_crossbar5 #(
     output reg  [4:0]               m_valid,
     input  wire [4:0]               m_ready
 );
-    timeunit 1ns; timeprecision 1ps;
     reg [2:0] next_priority [0:4];
     reg [2:0] winner [0:4];
     reg [4:0] winner_valid;
