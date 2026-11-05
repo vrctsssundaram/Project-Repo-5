@@ -1,4 +1,4 @@
-# FlitMesh-5
+# Five-port flit crossbar
 
 Five-input/five-output single-flit crossbar with destination routing.
 
